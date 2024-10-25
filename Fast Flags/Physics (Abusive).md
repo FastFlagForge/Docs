@@ -181,7 +181,7 @@ order: -7
 }
 ```
 ### Slide on Terrain/Meshes
-```
+```json
 {
     "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
 }
