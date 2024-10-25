@@ -2,8 +2,8 @@ input: .
 output: .retype
 url: # Add your website address here
 branding:
-  title: Fast Flag Forge
-  label: Docs
+  title: The Fast Flag List
+  label: v1.0
 links:
 - text: Getting Started
   link: https://retype.com/guides/getting-started/
