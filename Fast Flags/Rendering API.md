@@ -1,5 +1,3 @@
-<h1 align="center">Rendering API</h1>
-
 ### Metal
 > [!IMPORTANT]
 > **MacOS Only**
