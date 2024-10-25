@@ -125,7 +125,7 @@ High
 ```
 ### Low Render Distance
 > [!TIP]
-> **[View FRM Levels](https://github.com/espresso-soft/rbxflags/tree/master?tab=readme-ov-file#frm-levels)**
+> **[View FRM Levels](https://fastflagforge.github.io/Docs/fast-flags/graphical-settings/#low-graphics-quality-w-max-render-distancefrm-quality-levels)**
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
