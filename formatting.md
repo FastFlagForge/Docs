@@ -1,6 +1,7 @@
 ---
 icon: note
 tags: [guide]
+visibility: hidden
 ---
 # Formatting
 
