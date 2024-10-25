@@ -9,7 +9,7 @@ icon: devices
 3. **Paste** in the **JSON**.
 4. **Save** and your good to go!
 
-[!embed](https://github.com/espresso-soft/latteflags/blob/master/assets/tutorial260.gif?raw=true)
+[!embed](https://imgur.com/a/3srh5Im)
 
 ## Normal Roblox Bootstrapper How to Use:
 ###### You can also do Roblox Studio
