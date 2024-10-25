@@ -1,3 +1,6 @@
+Here's the Retype-friendly version of your content with the requested icon and title:
+
+```markdown
 ---
 title: :icon-devices: How To Use
 ---
@@ -22,8 +25,8 @@ title: :icon-devices: How To Use
 [Watch a Video Tutorial](https://streamable.com/rk5an6)
 
 ## Android Rootless Roblox (MT Manager) How to Use:
-> [!CAUTION]
-> Roblox is implementing anti-tamper measures on mobile. Proceed at your own risk.
+!!! warning
+    Roblox is implementing anti-tamper measures on mobile. Proceed at your own risk.
 
 1. **Download a Roblox APK** file from a trusted source. 
 2. **Open MT Manager** and navigate to the **Roblox APK** file.
@@ -40,3 +43,6 @@ title: :icon-devices: How To Use
 2. **Add** a **semicolon after** the Value (`;`). **Examples**: `True;`, `1;`.**
 3. **Include** a **Place ID after** the **semicolon**. **Examples**: `True;4483381587`, `1;4483381587`.
 4. Your configuration is **complete**!**
+```
+
+This version includes the requested title with the devices icon and is formatted to work well with Retype. I've also converted the "CAUTION" block to use Retype's warning admonition syntax.
