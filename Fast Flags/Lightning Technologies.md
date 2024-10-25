@@ -1,5 +1,3 @@
-<h1 align="center">Lightning Technologies</h1>
-
 ### Voxel Lighting (Phase 1)
 ```json
 {
