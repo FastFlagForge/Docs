@@ -1,6 +1,3 @@
-Here's the Retype-friendly version of your content with the requested icon and title:
-
-```markdown
 ---
 title: :icon-devices: How To Use
 ---
