@@ -9,24 +9,21 @@
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Abusive Visuals</title>
-    <meta name="title" content="Abusive Visuals">
-    <meta name="description" content="Draws an outline around every part and every humanoid">
+    <title>Presets</title>
+    <meta name="title" content="Presets">
 
     <!-- Canonical -->
-    <link rel="canonical" href="/fast-flags/abusive-visuals/">
+    <link rel="canonical" href="/fast-flag-presets/presets/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/fast-flags/abusive-visuals/">
-    <meta property="og:title" content="Abusive Visuals">
-    <meta property="og:description" content="Draws an outline around every part and every humanoid">
+    <meta property="og:url" content="/fast-flag-presets/presets/">
+    <meta property="og:title" content="Presets">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/fast-flags/abusive-visuals/">
-    <meta property="twitter:title" content="Abusive Visuals">
-    <meta property="twitter:description" content="Draws an outline around every part and every humanoid">
+    <meta property="twitter:url" content="/fast-flag-presets/presets/">
+    <meta property="twitter:title" content="Presets">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -164,139 +161,153 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="abusive-visuals" class="break-words">
+<doc-anchor-target id="presets" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#abusive-visuals">#</doc-anchor-trigger>
-        <span>Abusive Visuals</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#presets">#</doc-anchor-trigger>
+        <span>Presets</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="semi-fullbright">
+<doc-anchor-target id="v1">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#semi-fullbright">#</doc-anchor-trigger>
-        <span>Semi Fullbright</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v1">#</doc-anchor-trigger>
+        <span>V1</span>
     </h3>
 </doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;,
-    &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;,
-    &quot;DFIntCullFactorPixelThresholdShadowMapHighQuality&quot;: &quot;2147483647&quot;,
-    &quot;DFIntCullFactorPixelThresholdShadowMapLowQuality&quot;: &quot;2147483647&quot;,
-    &quot;FFlagNewLightAttenuation&quot;: &quot;True&quot;,
-    &quot;FIntRenderShadowmapBias&quot;: &quot;-1&quot;,
-    &quot;DFFlagDebugPauseVoxelizer&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="draws-a-circle-under-avatars">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#draws-a-circle-under-avatars">#</doc-anchor-trigger>
-        <span>Draws a circle under avatars</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDebugAvatarChatVisualization&quot;: &quot;True&quot;,
-    &quot;FFlagEnableInGameMenuChromeABTest2&quot;: &quot;False&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="humanoid-outline">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#humanoid-outline">#</doc-anchor-trigger>
-        <span>Humanoid Outline</span>
-    </h3>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><strong>Draws an outline around every part and every humanoid</strong></p>
-        </div>
-    </div>
-</div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFFlagDebugDrawBroadPhaseAABBs&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="fflag-above-but-more-complex">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#fflag-above-but-more-complex">#</doc-anchor-trigger>
-        <span>fflag above but more complex</span>
-    </h3>
-</doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-            <h5>Note</h5>
-<p><strong>Draws an outline around every body part</strong></p>
-        </div>
-    </div>
-</div>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFFlagDebugDrawBvhNodes&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="buggy-zplane-camera">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#buggy-zplane-camera">#</doc-anchor-trigger>
-        <span>Buggy ZPlane Camera <span class="docs-emoji">&#x2728;</span></span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FIntCameraFarZPlane&quot;: &quot;1&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="adds-an-ui-in-game-which-highlights-any-part-player-touches-like-ground-meshes-etc-its-a-non-functioning-ui-too-also-adds-a-blue-circle-to-your-humanoid">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#adds-an-ui-in-game-which-highlights-any-part-player-touches-like-ground-meshes-etc-its-a-non-functioning-ui-too-also-adds-a-blue-circle-to-your-humanoid">#</doc-anchor-trigger>
-        <span>Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It&#x27;s a non-functioning UI too. Also adds a blue circle to your humanoid.</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-json"><code v-pre class="language-json">{
-    &quot;FFlagDebugHumanoidRendering&quot;: &quot;True&quot;
-}</code></pre>
-</doc-codeblock></div>
-<doc-anchor-target id="xray">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#xray">#</doc-anchor-trigger>
-        <span>Xray <span class="docs-emoji">&#x2728;</span></span>
-    </h3>
-</doc-anchor-target>
-<doc-anchor-target id="tyetonix">
+<doc-anchor-target id="very-low-quality-for-performance">
     <h6>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tyetonix">#</doc-anchor-trigger>
-        <span>@tyetonix</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#very-low-quality-for-performance">#</doc-anchor-trigger>
+        <span>Very low quality for performance</span>
     </h6>
 </doc-anchor-target>
 <div class="codeblock-wrapper"><doc-codeblock>
 <pre class="language-json"><code v-pre class="language-json">{
-    &quot;DFIntCullFactorPixelThresholdMainViewHighQuality&quot;: &quot;10000&quot;,
-    &quot;DFIntCullFactorPixelThresholdMainViewLowQuality&quot;: &quot;10000&quot;,
-    &quot;DFIntCullFactorPixelThresholdShadowMapHighQuality&quot;: &quot;10000&quot;,
-    &quot;DFIntCullFactorPixelThresholdShadowMapLowQuality&quot;: &quot;10000&quot;
+    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;,
+    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+    &quot;FFlagDebugRenderingSetDeterministic&quot;: &quot;True&quot;,
+    &quot;DFFlagDebugRenderForceTechnologyVoxel&quot;: &quot;True&quot;,
+    &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;,
+    &quot;DFIntCullFactorPixelThresholdShadowMapHighQuality&quot;: &quot;2147483647&quot;,
+    &quot;DFIntCullFactorPixelThresholdShadowMapLowQuality&quot;: &quot;2147483647&quot;,
+    &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;,
+    &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;,
+    &quot;FFlagCommitToGraphicsQualityFix&quot;: &quot;True&quot;,
+    &quot;FFlagFixGraphicsQuality&quot;: &quot;True&quot;,
+    &quot;FFlagGlobalWindRendering&quot;: &quot;False&quot;,
+    &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;8&quot;,
+    &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;6&quot;,
+    &quot;FIntRenderLocalLightFadeInMs&quot;: &quot;-1&quot;,
+    &quot;FFlagDisablePostFx&quot;: &quot;True&quot;,
+    &quot;DFFlagDebugPauseVoxelizer&quot;: &quot;True&quot;,
+    &quot;FFlagDebugSkyGray&quot;: &quot;True&quot;,
+    &quot;FFlagFastGPULightCulling3&quot;: &quot;True&quot;,
+    &quot;DFIntMaxFrameBufferSize&quot;: &quot;4&quot;,
+    &quot;FIntTerrainArraySliceSize&quot;: &quot;4&quot;,
+    &quot;DFIntTextureCompositorActiveJobs&quot;: &quot;0&quot;,
+    &quot;FIntDebugTextureManagerSkipMips&quot;: &quot;8&quot;,
+    &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;,
+    &quot;FIntFRMMaxGrassDistance&quot;: &quot;0&quot;,
+    &quot;FIntRenderGrassDetailStrands&quot;: &quot;0&quot;,
+    &quot;FIntRenderGrassHeightScaler&quot;: &quot;0&quot;,
+    &quot;FIntRenderShadowmapBias&quot;: &quot;-1&quot;,
+    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;,
+    &quot;DFIntAnimationLodFacsDistanceMin&quot;: &quot;0&quot;,
+    &quot;DFIntAnimationLodFacsDistanceMax&quot;: &quot;0&quot;,
+    &quot;DFIntAnimationLodFacsVisibilityDenominator&quot;: &quot;0&quot;,
+    &quot;FFlagEnableInGameMenuChromeABTest2&quot;: &quot;False&quot;,
+    &quot;FFlagEnableReportAbuseMenuRoactABTest2&quot;: &quot;False&quot;,
+    &quot;FFlagEnableInGameMenuChromeABTest3&quot;: &quot;False&quot;,
+    &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;,
+    &quot;GuiHidingApiSupport2&quot;: &quot;True&quot;,
+    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="v2">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#v2">#</doc-anchor-trigger>
+        <span>V2</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagTaskSchedulerLimitTargetFpsTo2402&quot;: &quot;False&quot;,
+    &quot;DFIntTaskSchedulerTargetFps&quot;: &quot;9999&quot;,
+    &quot;FFlagRenderFixFog&quot;: &quot;True&quot;,
+    &quot;FFlagDebugCheckRenderThreading&quot;: &quot;True&quot;,
+    &quot;FFlagRenderDebugCheckThreading2&quot;: &quot;True&quot;,
+    &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;,
+    &quot;DFIntCullFactorPixelThresholdShadowMapHighQuality&quot;: &quot;2147483647&quot;,
+    &quot;DFIntCullFactorPixelThresholdShadowMapLowQuality&quot;: &quot;2147483647&quot;,
+    &quot;DFFlagDisableDPIScale&quot;: &quot;True&quot;,
+    &quot;FFlagCommitToGraphicsQualityFix&quot;: &quot;True&quot;,
+    &quot;FFlagFixGraphicsQuality&quot;: &quot;True&quot;,
+    &quot;FIntRenderLocalLightUpdatesMax&quot;: &quot;6&quot;,
+    &quot;FIntRenderLocalLightUpdatesMin&quot;: &quot;4&quot;,
+    &quot;FIntRenderLocalLightFadeInMs&quot;: &quot;0&quot;,
+    &quot;FFlagDisablePostFx&quot;: &quot;True&quot;,
+    &quot;FFlagNewLightAttenuation&quot;: &quot;True&quot;,
+    &quot;FFlagDebugForceFSMCPULightCulling&quot;: &quot;True&quot;,
+    &quot;DFIntMaxFrameBufferSize&quot;: &quot;6&quot;,
+    &quot;DFFlagTextureQualityOverrideEnabled&quot;: &quot;True&quot;,
+    &quot;DFIntTextureQualityOverride&quot;: &quot;3&quot;,
+    &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;,
+    &quot;FIntFRMMaxGrassDistance&quot;: &quot;0&quot;,
+    &quot;FIntRenderGrassDetailStrands&quot;: &quot;0&quot;,
+    &quot;FIntDebugForceMSAASamples&quot;: &quot;0&quot;,
+    &quot;FFlagGameBasicSettingsFramerateCap5&quot;: &quot;False&quot;,
+    &quot;FFlagUserShowGuiHideToggles&quot;: &quot;True&quot;,
+    &quot;FFlagGuiHidingApiSupport2&quot;: &quot;True&quot;,
+    &quot;FIntFullscreenTitleBarTriggerDelayMillis&quot;: &quot;3600000&quot;,
+    &quot;DFIntTimestepArbiterThresholdCFLThou&quot;: &quot;300&quot;,
+    &quot;FFlagAdServiceEnabled&quot;: &quot;False&quot;,
+    &quot;FFlagDebugDisableTelemetryEphemeralCounter&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryEphemeralStat&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryEventIngest&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryPoint&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Counter&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Event&quot;: &quot;True&quot;,
+    &quot;FFlagDebugDisableTelemetryV2Stat&quot;: &quot;True&quot;,
+    &quot;DFIntDefaultTimeoutTimeMs&quot;: &quot;10000&quot;,
+    &quot;FFlagEnableQuickGameLaunch&quot;: &quot;True&quot;,
+    &quot;DFIntAnimationLodFacsDistanceMin&quot;: &quot;0&quot;,
+    &quot;DFIntAnimationLodFacsDistanceMax&quot;: &quot;0&quot;,
+    &quot;DFIntAnimationLodFacsVisibilityDenominator&quot;: &quot;0&quot;,
+    &quot;FFlagHandleAltEnterFullscreenManually&quot;: &quot;False&quot;,
+    &quot;FIntRobloxGuiBlurIntensity&quot;: &quot;0&quot;,
+    &quot;FFlagErrorPromptResizesHeight&quot;: &quot;False&quot;,
+    &quot;FFlagNewCameraControls&quot;: &quot;True&quot;,
+    &quot;DFIntS2PhysicsSenderRate&quot;: &quot;10000&quot;
+}</code></pre>
+</doc-codeblock></div>
+<doc-anchor-target id="absolutely-kill-your-game-quality-with-fflags-known-to-me">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#absolutely-kill-your-game-quality-with-fflags-known-to-me">#</doc-anchor-trigger>
+        <span>absolutely kill your game quality with fflags known to me</span>
+    </h3>
+</doc-anchor-target>
+<doc-anchor-target id="dynamitebumblemouth">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dynamitebumblemouth">#</doc-anchor-trigger>
+        <span>@dynamitebumblemouth</span>
+    </h5>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-json"><code v-pre class="language-json">{
+    &quot;FFlagDisablePostFx&quot;: &quot;True&quot;,
+    &quot;FIntDebugTextureManagerSkipMips&quot;: &quot;-1&quot;,
+    &quot;DFIntTextureCompositorActiveJobs&quot;: &quot;0&quot;,
+    &quot;DFIntCSGLevelOfDetailSwitchingDistance&quot;: &quot;0&quot;,
+    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL12&quot;: &quot;0&quot;,
+    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL23&quot;: &quot;0&quot;,
+    &quot;DFIntCSGLevelOfDetailSwitchingDistanceL34&quot;: &quot;0&quot;,
+    &quot;DFIntDebugFRMQualityLevelOverride&quot;: &quot;1&quot;,
+    &quot;DFFlagDebugPauseVoxelizer&quot;: &quot;True&quot;,
+    &quot;DFFlagDebugRenderForceTechnologyVoxel&quot;: &quot;True&quot;,
+    &quot;FFlagGlobalWindRendering&quot;: &quot;False&quot;,
+    &quot;FIntRenderShadowIntensity&quot;: &quot;0&quot;,
+    &quot;FIntRenderShadowmapBias&quot;: &quot;1&quot;,
+    &quot;FIntDebugForceMSAASamples&quot;: &quot;-1&quot;,
+    &quot;FIntFRMMinGrassDistance&quot;: &quot;0&quot;,
+    &quot;DFIntTextureQualityOverride&quot;: &quot;1&quot;
 }</code></pre>
 </doc-codeblock></div>
 
@@ -308,23 +319,16 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fast-flags/physics-(abusive)/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../fast-flags/abusive-visuals/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Physics (Abusive)</span>
+                                                <span class="block mt-1">Abusive Visuals</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../fast-flag-presets/presets/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Presets</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -365,6 +369,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Abusive Visuals", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Presets", level: 2, icon: "file", hasPrism: true, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
