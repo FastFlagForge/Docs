@@ -3,7 +3,7 @@
 # Tsb
 ### fflag above but more complex
 > [!NOTE]
-> **"This flag makes you invincible against: **
+> **"This flag makes you invincible against:**
 - Tatsumaki's mid-air attack 1
 - Tatsumaki's ultimate 4
 - Metal Bat's ultimate 1
