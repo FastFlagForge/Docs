@@ -26,6 +26,7 @@ order: -1
   </tr>
 </table>
 
+<div align="center">
 <table>
   <tr>
     <th>Prefix</th>
