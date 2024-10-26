@@ -8,8 +8,8 @@ icon: rel-file-path
 ## What Are Fast Flags?
 Roblox Fast Flags are internal configuration settings used by Roblox engineers to quickly enable or disable features and functionalities within the Roblox platform. These flags allow developers to test new features, make updates, and address issues without deploying a full platform update.
 
-### Caution
-> **Fast Flags are extremely powerful and intended only for use by Roblox engineers. While they can be very useful, they can cause stability and functionality issues if not used correctly.**
+> [!CAUTION]
+> **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
 ## ChangeLog
 #### Version: `10.10.24`
