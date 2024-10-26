@@ -42,6 +42,14 @@ order: -2
     "FFlagRenderFixFog": "True"
 }
 ```
+### Better shadows
+> [!NOTE]
+> **Loading will take longer but the shadows are much better**
+```json
+{
+    "FFlagRenderInitShadowmaps": "true"
+}
+```
 ### HyperThreading
 ```json
 {
@@ -61,7 +69,22 @@ order: -2
     "FIntTaskSchedulerThreadMin": "3"
 }
 ```
+### Object Reflection Support!
+```json
+{
+    "FFlagObjectReflectionSupport": "true"
+}
+```
 ### Smoother Terrain
+```json
+{
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
+### Vertex Smoothing Group Tolerance
+* The FIntVertexSmoothingGroupTolerance flag controls the tolerance level for vertex smoothing groups in 3D graphics.
+* Lower values result in lower smoothing quality as more errors are tolerated, making models appear more angular and less smooth.
+* Higher values increase the smoothing accuracy, leading to smoother, more visually appealing models with fewer artifacts.
 ```json
 {
     "FFlagDebugRenderingSetDeterministic": "True"
@@ -77,6 +100,18 @@ order: -2
 ```json
 {
     "FIntRenderShadowIntensity": "0"
+}
+```
+### Unified Lighting Blend Zone
+> [!TIP]
+> **Smaller value = FPS boost > Bigger value = FPS loss**
+* Explanation:
+* Controls the distance over which light transitions blend.
+* Lower values create sharper transitions.
+* Higher values make transitions smoother. 
+```json
+{
+    "DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
 ### Disable Shadows
@@ -119,6 +154,15 @@ High
 9 = 18
 10 = 21
 ```
+### Old Version of FRM
+> [!NOTE]
+> **Graphics quality will use an older approach/method which may help improve FPS for some users.**
+```json
+{
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True"
+}
+```
 ### FRM 21 Graphics Quality Slider
 ```json
 {
@@ -139,6 +183,18 @@ High
 {
     "FIntRenderLocalLightUpdatesMax": "8",
     "FIntRenderLocalLightUpdatesMin": "6"
+}
+```
+### Directional Attenuation Max Points
+> [!TIP]
+> **Lower values: May improve performance but reduce lighting accuracy. > Higher values: Increase lighting accuracy at the cost of performance, potentially leading to slower rendering, especially in scenes with complex lighting setups.**
+* Explanation:
+* Limits the maximum number of sample points for calculating directional light attenuation..
+* Lower values improve performance but may reduce lighting accuracy.
+* Higher values increase lighting accuracy but may slow rendering in complex lighting setups.
+```json
+{
+    "DFIntDebugFRMQualityLevelOverride": "1"
 }
 ```
 ### Disables fade in and fade out animation every light update
@@ -196,6 +252,15 @@ High
 {
     "FFlagNewLightAttenuation": "True"
 }
+```
+### New Version of Render
+> [!NOTE]
+> **Enables an updated rendering system to improve performance and manage render calls.**
+```json
+{
+  "FFlagRenderCBRefactor2": true
+}
+
 ```
 ### Enable GPULightCulling
 > [!TIP]
@@ -306,6 +371,14 @@ High
 {
     "FFlagGraphicsGLEnableSuperHQShadersExclusion": false,
     "FFlagGraphicsGLEnableHQShadersExclusion": false
+}
+```
+### Render Shadow Skip Huge Culling
+> [!NOTE]
+> **Skipping shadows of large objects in the distance**
+```json
+{
+  "FFlagRenderShadowSkipHugeCulling": "true"
 }
 ```
 ### Limits number of animations being played
