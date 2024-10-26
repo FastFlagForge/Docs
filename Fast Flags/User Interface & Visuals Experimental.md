@@ -78,6 +78,16 @@ order: -5
     "FFlagEnableChromePinnedChat": "True"
 }
 ```
+### Walk Speed Scale Based
+
+> [!NOTE]
+> **Taller characters have a slower walking animation.**
+###### 
+```json
+{
+    "UserAnimateScaleRun ": "true"
+}
+```
 ### Ragdoll Death Type
 
 > [!IMPORTANT]
