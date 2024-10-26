@@ -299,6 +299,15 @@ High
     "FIntRenderShadowmapBias": "75"
 }
 ```
+### No Shaders
+> [!IMPORTANT]
+> **Requires OpenGl Render**
+```json
+{
+    "FFlagGraphicsGLEnableSuperHQShadersExclusion": false,
+    "FFlagGraphicsGLEnableHQShadersExclusion": false
+}
+```
 ### Limits number of animations being played
 > [!TIP]
 > **0 removes most player animations, 1-5 removes the walk animation after jumping**
