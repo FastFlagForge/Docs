@@ -5,7 +5,7 @@ order: -1
 
 <h1 align="center">Abusive Game Specific Presets</h1>
 
-### Tsb
+## Tsb
 #### Attack Nullifier
 > [!NOTE]
 > **This flag makes you invincible against:**
@@ -21,7 +21,7 @@ It might also work against Genos' ultimate 1, but this needs to be tested.**
     "DFIntGameNetPVHeaderLinearVelocityZeroCutoffExponent": "True"
 }
 ```
-### Rivals
+## Rivals
 #### [original video link](https://www.youtube.com/watch?v=jfHq5J0jHY4)
 #### Constant Hops/hip height (Change - Value)
 ``` json
