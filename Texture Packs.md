@@ -1,6 +1,7 @@
 ---
 title: Texture Packs
 order: -4
+icon: device-camera
 ---
 
 ### No Textures
