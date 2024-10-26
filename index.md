@@ -6,7 +6,7 @@ icon: rel-file-path
 <h1 align="center">The Number 1 Fast Flag List</h1>
 
 <h3 align="center">
-  <img src="Assets/videoplayback-ezgif.com-optimize.gif" width="256" alt="Or What?">
+  <img src="Assets/8352-chill.jpg" width="256" alt="Or What?">
 </h3>
 
 ## What Are Fast Flags?
