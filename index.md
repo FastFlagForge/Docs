@@ -7,6 +7,7 @@ icon: rel-file-path
 <h3 align="center">#FastFlagForge$</h3>
 
 <h3 align="center">ChangeLogs</h3>
+
 #### Version: `10.10.24`
 Nothing
 
