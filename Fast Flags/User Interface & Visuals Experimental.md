@@ -85,7 +85,7 @@ order: -5
 ###### 
 ```json
 {
-    "UserAnimateScaleRun ": "true"
+    "DFFlagUserAnimateScaleRun ": "true"
 }
 ```
 ### Ragdoll Death Type
