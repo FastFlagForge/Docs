@@ -14,6 +14,24 @@ order: -8
     "DFFlagDebugPauseVoxelizer": "True"
 }
 ```
+### Fullbright 1
+> [!TIP]
+> **change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.**
+```json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderFixFog": "True",
+    "FFlagDisablePostFx": "True"
+}
+```
 ### Draws a circle under avatars
 ```json
 {
