@@ -1,3 +1,7 @@
+---
+title: Fast Flag Community Presets
+---
+
 ### V1
 ###### Very low quality for performance
 ```json
