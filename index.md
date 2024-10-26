@@ -18,6 +18,6 @@ No changes.
 ## List Meanings
 - **✨**: Indicates something rare and hard to get, akin to a holy treasure. This could be a unique item, such as a shoe, car, or piece of art, that everyone wants but only a few can obtain.
 
-## Important Note
-> **If you find this documentation useful, don't forget to bookmark it**
+> [!NOTE]
+> if you find this documentation useful, don't forget to bookmark it!
 
