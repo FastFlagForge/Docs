@@ -5,9 +5,7 @@ icon: rel-file-path
 
 <h1 align="center">The Number 1 Fast Flag List</h1>
 
-<h3 align="center">
-  <img src="Assets/8352-chill.jpg" width="256" alt="Real Shi">
-</h3>
+![](/static/Assets/8352-chill.jpg)
 
 ## What Are Fast Flags?
 Roblox Fast Flags are internal configuration settings used by Roblox engineers to quickly enable or disable features and functionalities within the Roblox platform. These flags allow developers to test new features, make updates, and address issues without deploying a full platform update.
