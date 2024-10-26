@@ -3,7 +3,7 @@ output: .retype
 url: https://fastflagforge.github.io # Add your website address here
 branding:
   title: The Fast Flag List
-  label: v1.1
+  label: v1.3
   logo: Assets/logo.png
 links:
 - text: Getting Started
