@@ -3,7 +3,7 @@ title: Welcome
 icon: rel-file-path	
 ---
 
-<h1 align="center">The Number 1 Collection Of Fast Flags List</h1>
+<h1 align="center">The Number 1 Collection Of Fast Flags</h1>
 
 ![](Assets/8352-chill.jpg)
 
