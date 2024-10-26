@@ -15,6 +15,10 @@ order: -8
 }
 ```
 ### Fullbright 1
+> [!IMPORTANT]
+> **use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.**
+> [!NOTE]
+> **fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.**
 > [!TIP]
 > **change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.**
 ```json
@@ -37,6 +41,30 @@ order: -8
 {
     "FFlagDebugAvatarChatVisualization": "True",
     "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+```
+### Fullbright 2
+> [!IMPORTANT]
+> **use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.**
+> [!NOTE]
+> **same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.**
+> [!TIP]
+> **change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.**
+> [!TIP]
+> **for expirenced people, add opengl and remove ur old rendering mode, remove the shaders with a fflag for less shadows.**
+```json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderFixFog": "True",
+    "FFlagDisablePostFx": "True"
 }
 ```
 ### Humanoid Outline
