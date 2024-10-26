@@ -275,6 +275,22 @@ High
     "FIntDebugForceMSAASamples": "4"
 }
 ```
+### Remove Unrequired Connections
+> [!TIP]
+> **Disconnects unrequired connections, better memory usage**
+```json
+{
+    "FFlagUserUpdateInputConnections": "true"
+}
+```
+### Raycast Performance Improvements
+> [!TIP]
+> **Uses workspace:Raycast() instead of worldmodel:FindPartOnRayWithIgnoreList()**
+```json
+{
+    "FFlagUserRaycastPerformanceImprovements": "true"
+}
+```
 ### ShadowMap Bias 
 > [!IMPORTANT]
 > **Future & ShadowMap only**
