@@ -46,4 +46,12 @@ It might also work against Genos' ultimate 1, but this needs to be tested.**
     "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
-
+## Slap Battles & Ability Wars
+### Anti Kb
+> [!NOTE]
+> **This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)**
+```Json
+{
+  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+}
+```
