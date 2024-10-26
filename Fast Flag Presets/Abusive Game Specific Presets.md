@@ -5,8 +5,8 @@ order: -1
 
 <h1 align="center">Abusive Game Specific Presets</h1>
 
-# Tsb
-### Attack Nullifier
+### Tsb
+#### Attack Nullifier
 > [!NOTE]
 > **This flag makes you invincible against:**
 - Tatsumaki's mid-air attack 1
@@ -21,9 +21,9 @@ It might also work against Genos' ultimate 1, but this needs to be tested.**
     "DFIntGameNetPVHeaderLinearVelocityZeroCutoffExponent": "True"
 }
 ```
-# Rivals
-### [original video link](https://www.youtube.com/watch?v=jfHq5J0jHY4)
-### Constant Hops/hip height (Change - Value)
+### Rivals
+#### [original video link](https://www.youtube.com/watch?v=jfHq5J0jHY4)
+#### Constant Hops/hip height (Change - Value)
 ``` json
 {
 "DFIntMaxAltitudePDStickHipHeightPercent": "-24"
