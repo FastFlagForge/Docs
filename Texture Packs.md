@@ -3,6 +3,8 @@ title: Texture Packs
 order: -4
 ---
 
+## [Make Your Own Custom Roblox Textures](https://github.com/GoingCrazyDude/roblox-custom-textures/blob/main/README.md) *[Github Repo Link]*
+
 ### No Textures
 ``` json
 {
