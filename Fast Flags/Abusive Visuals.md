@@ -17,8 +17,10 @@ order: -8
 ### Fullbright 1
 > [!IMPORTANT]
 > **use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.**
+
 > [!NOTE]
 > **fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.**
+
 > [!TIP]
 > **change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.**
 ```json
