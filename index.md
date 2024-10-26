@@ -14,8 +14,9 @@ Roblox Fast Flags are internal configuration settings used by Roblox engineers t
 > **Fast Flags are extremely powerful, being that they are intended to only be used by Roblox engineers. While they can be very useful, they can cause issues with stability and functionality if you don't know what you're doing.**
 
 ## ChangeLog
-#### Version: `V1.0`
-No changes.
+#### Version: `V1.3`
+Added [Texture Packs](https://fastflagforge.github.io/Docs/texture-packs/)
+Added [Tools And Sources](https://fastflagforge.github.io/Docs/other/sources/)
 
 ## List Meanings
 - **✨**: Indicates something rare!.
