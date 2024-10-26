@@ -1,7 +1,7 @@
 <h1 align="center">Abusive Game Specific Presets</h1>
 
 # Tsb
-### fflag above but more complex
+### Attack Invincible
 > [!NOTE]
 > **This flag makes you invincible against:**
 - Tatsumaki's mid-air attack 1
