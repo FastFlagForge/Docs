@@ -4,8 +4,8 @@ url: https://fastflagforge.github.io # Add your website address here
 branding:
   title: The Fast Flag List
   label: v1.1
-  logo: Assets/static/logo.png
-  favicon: Assets/static/logo.png
+  logo: Assets/logo.png
+  favicon: Assets/logo.png
 links:
 - text: Getting Started
   link: https://fastflagforge.github.io/Docs/before-you-begin/how-to-use/
