@@ -121,6 +121,21 @@ order: -2
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
 }
 ```
+### Simulation Optimization Flag
+> [!NOTE]
+> **Optimization, latency, delay FFlag**
+```json
+{
+   "FFlagSimEnableDCD16": "true"
+}
+```
+### Limits light updates
+```json
+{
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6"
+}
+```
 ### Preserve rendering quality with display setting
 ```json
 {
@@ -175,6 +190,18 @@ High
 ```json
 {
     "DFIntDebugRestrictGCDistance": "1"
+}
+```
+### Simulation Optimization Flag
+> [!NOTE]
+> **Be mindful that while optimization can improve performance, it may also require testing to ensure that the behavior of sets remains consistent and that no necessary 
+  details are lost during the optimization process.**
+* The DFFlagSimOptimizeSetSize flag is used to optimize the size of sets in simulations.
+* Enabling this flag activates optimization techniques that reduce the size of simulation sets, leading to better performance by decreasing memory usage and potentially 
+  improving processing speeds during simulations.
+```json
+{
+  "DFFlagSimOptimizeSetSize": true
 }
 ```
 ### Limits light updates
