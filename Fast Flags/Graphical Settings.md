@@ -87,7 +87,7 @@ order: -2
 * Higher values increase the smoothing accuracy, leading to smoother, more visually appealing models with fewer artifacts.
 ```json
 {
-    "FFlagDebugRenderingSetDeterministic": "True"
+    "FIntVertexSmoothingGroupTolerance": "1000"
 }
 ```
 ### Force Graphics Quality Level
@@ -111,7 +111,7 @@ order: -2
 * Higher values make transitions smoother. 
 ```json
 {
-    "DFIntDebugFRMQualityLevelOverride": "1"
+     "FIntUnifiedLightingBlendZone": 400
 }
 ```
 ### Disable Shadows
@@ -158,9 +158,8 @@ High
 > [!NOTE]
 > **Graphics quality will use an older approach/method which may help improve FPS for some users.**
 ```json
-{
-    "FFlagCommitToGraphicsQualityFix": "True",
-    "FFlagFixGraphicsQuality": "True"
+{   
+   "FFlagFRMRefactor": "false"
 }
 ```
 ### FRM 21 Graphics Quality Slider
@@ -194,7 +193,7 @@ High
 * Higher values increase lighting accuracy but may slow rendering in complex lighting setups.
 ```json
 {
-    "DFIntDebugFRMQualityLevelOverride": "1"
+   "FIntDirectionalAttenuationMaxPoints": "400"
 }
 ```
 ### Disables fade in and fade out animation every light update
@@ -282,6 +281,16 @@ High
 ```json
 {
     "DFIntMaxFrameBufferSize": "4"
+}
+```
+### Smoother/Faster Input
+> [!TIP]
+> **When enabled the game will use an updated implementation for processing user input, which may lead to smoother and more responsive interactions.**
+* This flag controls the refactoring of the legacy input handling system in Roblox.
+* # Recommendation: Test your game thoroughly after enabling this flag to ensure that everything functions as expected.
+```json
+{
+    "FFlagLuaAppLegacyInputSettingRefactor": true
 }
 ```
 ### Low Quallity Terrain Textures
@@ -379,6 +388,22 @@ High
 ```json
 {
   "FFlagRenderShadowSkipHugeCulling": "true"
+}
+```
+### Render Skip Reading Shader Data
+> [!NOTE]
+> **Skips reading shader data**
+```json
+{
+  "FFlagRenderSkipReadingShaderData": "false"
+}
+```
+### Shoe Skip Render Mesh
+> [!NOTE]
+> **Skips shoe rendering**
+```json
+{
+  "FFlagShoeSkipRenderMesh": "false"
 }
 ```
 ### Limits number of animations being played
