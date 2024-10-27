@@ -251,6 +251,31 @@ order: -3
     "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### Mouse Latency
+> [!NOTE]
+> Default value: 500 > > Lower value = more responsive mouse
+* This flag determines the mouse input delay in milliseconds.
+* A lower value (such as 1) will reduce the latency between mouse movement or clicks and the game's response, making the mouse feel more responsive.
+* However, setting the value too low could result in excessively sensitive mouse input, potentially leading to issues like unintended multiple clicks or overly sensitive 
+  pointer movements.
+* The default value of 500 milliseconds provides a balance between responsiveness and control, reducing the risk of input errors.
+```json
+{
+  "FIntActivatedCountTimerMSMouse": 500
+}
+```
+### Keyboard  Latency
+> [!NOTE]
+> Default value: 500 > > Lower value = more responsive keyboard.
+* This flag controls the keyboard input latency in milliseconds.
+* By setting this value to 1, it minimizes the delay between key presses and the game's recognition of the input, effectively improving keyboard responsiveness.
+* However, such a low value might cause excessively frequent key registration, which can lead to issues like repeated actions during key holds.
+* The default value is 500 milliseconds, providing a balance between input responsiveness and preventing unintentional key repetition.
+```json
+{
+  "FIntActivatedCountTimerMSKeyboard": 500
+}
+```
 ### Change Age Rating Learn More Link
 ```json
 {
