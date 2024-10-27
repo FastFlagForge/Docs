@@ -314,7 +314,7 @@ High
 > [!TIP]
 > **When enabled the game will use an updated implementation for processing user input, which may lead to smoother and more responsive interactions.**
 * This flag controls the refactoring of the legacy input handling system in Roblox.
-* # Recommendation: Test your game thoroughly after enabling this flag to ensure that everything functions as expected.
+* Recommendation: Test your game thoroughly after enabling this flag to ensure that everything functions as expected.
 ```json
 {
     "FFlagLuaAppLegacyInputSettingRefactor": true
