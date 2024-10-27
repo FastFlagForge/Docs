@@ -10,6 +10,27 @@ order: -4
     "FFlagEnableHamburgerIcon": "True"
 }
 ```
+### Preferred Text Size Settings
+```json
+{
+  "FFlagEnablePreferredTextSizeGuiService": true,
+  "FFlagEnablePreferredTextSizeScale": true,
+  "FFlagEnablePreferredTextSizeScalePerLayerCollector": true,
+  "FFlagEnablePreferredTextSizeSettingInMenus2": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInCaptureMenu": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInExperienceMenu": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInPlayerList": true,
+  "FFlagPreferredTextSizeSettingBetaFeature": true,
+  "FIntPreferredTextSizeSettingBetaFeatureRolloutPercent": 100,
+  "FFlagEnablePreferredTextSizeConnection": true,
+  "FFlagEnablePreferredTextSizeStyleFixesAddFriends": true,
+  "FFlagEnablePreferredTextSizeStyleFixesGameTile": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInAppShell3": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInPurchasePrompt": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInReportMenu": true
+}
+
+```
 ### Mini Webview
 ```json
 {
